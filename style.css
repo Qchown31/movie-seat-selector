@@ -126,3 +126,16 @@ p.text {
 p.text span {
   color: #6feaf6;
 }
+
+button {
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid #6feaf6;
+  border-radius: 20px;
+  padding: 5px 25px;
+  background-color: #6feaf6;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  cursor: pointer;
+}
