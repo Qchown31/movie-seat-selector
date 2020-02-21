@@ -14,7 +14,9 @@ body {
   height: 100vh;
   font-family: 'Roboto', sans-serif;
   margin: 0;
+  text-align: center;
 }
+
 
 .movie-container {
   margin: 20px 0;
@@ -44,17 +46,27 @@ body {
   margin: 3px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  font-size: 10px;
+}
+
+.row-letter {
+  width: 5px;
+  padding-right: 15px;
+  font-size: 15px;
 }
 
 .seat.selected {
   background-color: #6feaf6;
+  color:black;
 }
 
 .seat.occupied {
   background-color: #fff;
+  color:black;
+
 }
 
-.seat:nth-of-type(2) {
+.seat:nth-of-type(3) {
   margin-right: 18px;
 }
 
@@ -95,6 +107,7 @@ body {
 
 .row {
   display: flex;
+  font-size: 15px;
 }
 
 .screen {
